@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "Adversarial Robustness of SOTA Vision Transformers vs. CNNs"
+authors:
+- family-names: "Xu"
+  given-names: "Ke"
+- family-names: "Nevatia"
+  given-names: "Ram"
+message: "If you use this software/tech report, please cite it as below."
+keywords:
+  - "adversarial robustness"
+  - "adversarial training"
+  - "vision transformers"
+  - CNNs
+  - ImageNet
+  - "distributed training"
+  - "mixed precision training"
+url: "https://richardkxu.github.io/AdvTransCNNs"
+repository-code: "https://github.com/richardkxu/AdvTransCNNs"
+license: MIT
+date-released: "2022-05-15"
+version: 0.1.0
