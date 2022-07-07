@@ -70,7 +70,7 @@ Swin transformer emerges recently as one of the new SOTA vision transformer back
 
 For ResNet50-GELU and DeiT-small, we use results reported in the paper [[2]](#bai2021transformers). These are model adversarially trained with full precison. We also perform `bf16` mixed precision training on the DeiT model and results in very close performance. As shown in the table, they have the same robustness in terms of relative drop from clean acc@1 to robust acc@1. The relative drop rate for ResNet50 and DeiT are lower than the more recent models. We think this is likely due to the difference in model size. It is known in the literature that advesarial training requires larger model capacity. Model with larger capacity can be adversarially trained better and thus have slightly higher relative drop ratio.
 
-
+### Robustnes Results on ImageNet1k
 
 | **Model**      | **Train Prec** | **Num Para** | **Clean Acc@1** | **PGD-5 Acc@1** | **Relative Drop** |
 |----------------|:-------:|:----------:|:---------------:|:---------------:|:-------------------:|
@@ -82,6 +82,11 @@ For ResNet50-GELU and DeiT-small, we use results reported in the paper [[2]](#ba
 | resnet50-gelu* |    full   |     25M    |      67.38%     |      44.01%     |         -35%        |
 
 model* denotes model results reported in the previous work.
+
+### Training and Validation Learning Curves
+![](./figures/cleanacc1.png)
+
+![](./figures/robustacc1.png)
 
 ## Concluding Remarks
 

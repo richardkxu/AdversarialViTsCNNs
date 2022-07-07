@@ -23,7 +23,15 @@ For full details and discussion, please check [BLOG.md](BLOG.md).
 model* denotes model results reported in the previous work.
 
 ## Installation
-Upcoming. 
+```
+conda create -n advtrans python=3.8
+
+conda activate advtrans
+
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+
+pip install tensorboardx timm wandb
+```
 
 ## Adversarial Training and Evaluation Cmd
 Upcoming.
