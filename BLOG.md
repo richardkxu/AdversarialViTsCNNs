@@ -19,7 +19,7 @@ There is a recent trend of unifying methodologies for different deep learning ta
 
 Some of them directly test the adversarial robustness on the clean trained model, whose robustness accuracy quickly drops to 0. A few others compare defended models after adversarial training, but those models have quite different clean accuracy to start with. All of these make it unclear if transformer type models are better than CNN type models in terms of adversarial robustness. 
 
-Our main goal with this study is to provide a fair comparision of the adversarial robustness of some relatively recent vision transformers (PoolFormer, Swin Transformer, DeiT) and CNNs (ConvNext, ResNet50). This comparison can give us insight into the adversarially robustness implication of two model types. To ensure fairness of comparison, we try to align:
+Our main goal with this study is to provide a fair comparision of the adversarial robustness of some relatively recent vision transformers (**PoolFormer, Swin Transformer, DeiT**) and CNNs (**ConvNext, ResNet50**). This comparison can give us insight into the adversarially robustness implication of two model types. To ensure fairness of comparison, we try to align:
  * **model size**: we select model variants with similar # of parameters
  * **dataset**: all models adversarially trained on ImageNet-1k from scratch
  * **macro and micro architectural design**: ConvNext is designed to strictly follow Swin Transformer's macro and micro architectures.
