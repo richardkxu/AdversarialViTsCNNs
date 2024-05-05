@@ -1,4 +1,4 @@
-# Adversarial Robustness of SOTA Vision Transformers vs. CNNs
+# Adversarial Robustness of Vision Transformers vs. CNNs
 
 ## Outline
 
